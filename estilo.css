@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la pagina */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header, logo y titulo */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #9370DB;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo de la barra de navegacion */
+.navbar {
+    display: flex;
+    background-color: #d8bfd8;
+}
+
+/* Estilo de los enlaces de la barra de navegacion */
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Cambiar el color cuando paso el mouse */
+.navbar a:hover {
+    background-color: #d0a9cd;
+    color: rgb(0, 0, 0);
+}
+
+/* Contenedor de columnas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Barra lateral */
+.side {
+    flex: 30%;
+    background-color: #9370DB;
+    padding: 20px;
+}
+
+/*Columna principal */
+.main {
+    flex: 70%;
+    background-color:#C8A2D4;
+    padding: 20px;
+}
+
+/* Imagen */
+.imagenfalsa {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Barra lateral */
+.sie {
+    flex: 30%;
+    background-color: #9370DB;
+    padding: 10px;
+}
+
+/*Columna principal */
+.min {
+    flex: 30%;
+    background-color:#C8A2D4;
+    padding: 10px;
+}
+
+/* Barra lateral */
+.sin {
+    flex: 30%;
+    background-color: #9370DB;
+    padding: 10px;
+}
+
+
+/* Imagen */
+.imagenfalsa {
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+/* Imagen */
+.imagenfalsa {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:696969;
+
+}
+
+h2{
+    color: #003366;
+
+}
+h3{
+    color: #333333;
+}
+
+h5{
+    color: #333333;
+}
+
+p{
+    color: #000000;
+}
+
+
+/*Flex Responsive */
+@media screen and (max-width: 700px) {
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
